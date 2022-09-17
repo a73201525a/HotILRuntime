@@ -1,0 +1,55 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+#define thread_group_x 8
+#define thread_group_y 8
+#define thread_group_z 1
+#define thread_x 8
+#define thread_y 8
+#define thread_z 1
+
+struct  MapGridTest{
+
+   float2 Key;
+   float3 pos;
+   float3 v0;
+   float3 v1;
+   float3 v2;
+   float3 v3;
+   float3 v4;
+   float3 v5;
+};
+
+
+RWStructuredBuffer<MapGridTest> Result;
+ 
+RWStructuredBuffer<float3> preVertices;
+ 
+RWStructuredBuffer<float3> nextVertices;
+
+
+[numthreads(8, 8, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+   	int idx = id.x + (id.y * thread_group_x * thread_x) + (id.z * thread_group_x * thread_x * thread_group_y * thread_y);
+
+    int idx2 = 1;
+   // Result[idx].v0 = float3(idx,idx,idx);
+  //  Result[idx] = preVertices[idx] * nextVertices[idx];
+
+
+     for (int i = 0; i < 60; i++)
+     {
+       float poor = (Result[idx].v0.x - Result[i].pos.x) + (Result[idx].v0.z - Result[i].pos.z);
+
+       if(poor<0.1)
+       {
+          Result[idx].v0 = float3( Result[i].Key.x,Result[i].Key.y,0);
+       }
+     }
+
+    
+}

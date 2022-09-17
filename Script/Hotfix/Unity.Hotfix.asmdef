@@ -1,0 +1,1 @@
+{"name":"hotfix","references":["main","TextAnimation","UItimate","MoreMountains.Feedbacks","BehaviorDesigner","Cinemachine","kolmich","Unity.TextMeshPro","HT.SpecialEffects"],"excludePlatforms":[],"includePlatforms":["Editor"],"allowUnsafeCode":true,"overrideReferences":false,"precompiledReferences":[],"autoReferenced":true,"defineConstraints":[],"versionDefines":[]}

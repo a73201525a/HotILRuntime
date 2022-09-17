@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ziegzauerskin4
+  m_Shader: {fileID: 4800000, guid: b6181e5cc9f79274e83b383fb050c3c5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: aa9b96c29d068a14dade8ce445c505e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoAdditional:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoMain:
+        m_Texture: {fileID: 2800000, guid: cc92b148bac37e944ae9b00aeff5a3f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 0fff383f294440847b5083260d8345ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Skin:
+        m_Texture: {fileID: 2800000, guid: 9542c10501eec0a45be50a7edefa7d56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 1.07
+    - _AOmult: 1
+    - _AOpower: 2
+    - _Float0: 1
+    - _Float1: 5
+    - _ImageOffsetX: 0.5
+    - _ImageOffsetY: 0.5
+    - _ImageTiling: 1
+    - _MetallicAdditional: 1
+    - _MetallicMain: 1
+    - _Mt: 2
+    - _SM: 2.23
+    - _SmoothnessAdditional: 1
+    - _SmoothnessMain: 2.1
+    - __dirty: 0
+    m_Colors:
+    - _AlbedoColor: {r: 0.37112856, g: 0.4020288, b: 0.5660378, a: 0}
+    - _Color0: {r: 0.37112856, g: 0.4020288, b: 0.5660378, a: 0}
+    - _ColorAdditional: {r: 0, g: 1, b: 0.3510604, a: 0}
+    - _ColorMain: {r: 0.40730688, g: 0.518325, b: 0.764151, a: 0}

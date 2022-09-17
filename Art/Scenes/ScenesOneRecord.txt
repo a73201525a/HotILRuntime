@@ -1,0 +1,16 @@
+15
+ball scenesone/ball.ld
+bulidmodel scenesone/bulidmodel.ld
+bullet scenesone/bullet.ld
+effect scenesone/effect.ld
+equmentmodel scenesone/equmentmodel.ld
+gunbodykit scenesone/gunbodykit.ld
+mainprefabs scenesone/mainprefabs.ld
+map scenesone/map.ld
+materials scenesone/materials.ld
+monster scenesone/monster.ld
+pickitems scenesone/pickitems.ld
+player scenesone/player.ld
+scene scenesone/scene.u3d
+terrainmap scenesone/terrainmap.ld
+urprender scenesone/urprender.ld

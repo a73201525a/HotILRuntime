@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: fc04eafa57b86094dad9f5c336dbf466
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: scenesone/materials
+  assetBundleVariant: ld
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

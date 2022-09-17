@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 96abb16561e1de54fbe9937418c5c5d5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mapHex: {fileID: 3230866418936423505, guid: a1adc85a5f568ad4bae1faae29d7e57c,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
